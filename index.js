@@ -2,7 +2,7 @@ var ws = require('ws')
   , fs = require('fs')
   , querystring = require('querystring')
   , https = require('https')
-  , Notification = require('node-notifier')
+  , Notification = require('node-notifier').NotificationCenter
   , path = require('path')
 
 /**
