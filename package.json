@@ -19,14 +19,14 @@
         "test": "make test"
     }
   , "dependencies": {
-        "ws": "0.4.31"
-      , "node-notifier": "3.0.6"
-      , "mkdirp": "0.5.0"
+        "ws": "8.8.1"
+      , "node-notifier": "10.0.1"
+      , "mkdirp": "1.0.4"
       , "xdg": "0.1.1"
     }
   , "devDependencies": {
         "ppunit": "1.0.0"
-      , "should": "4.0.4"
-      , "istanbul": "0.3.0"
+      , "should": "13.2.3"
+      , "istanbul": "0.4.5"
     }
 }
