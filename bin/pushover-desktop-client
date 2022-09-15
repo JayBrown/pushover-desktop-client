@@ -80,7 +80,7 @@ function saveSettings(nextFunction) {
     var fs = require('fs')
     var path = require('path')
     
-    // If we're creating the Settings file for the first time, make sure the path exists
+    // If we are creating the Settings file for the first time, make sure the path exists
     if (!fs.existsSync(settingsPath)) {
         mkdirp.sync(path.dirname(settingsPath))
     }
